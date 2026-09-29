@@ -1,0 +1,21 @@
+{
+  "Standard Transformer": {
+    "causal_max_logit_error": 0.0,
+    "reload_max_logit_error": 0.0
+  },
+  "Shared-depth Transformer": {
+    "causal_max_logit_error": 0.0,
+    "reload_max_logit_error": 0.0
+  },
+  "metric_recalculation": "Passed for all four models from all test-window records",
+  "standard.weights.npz": {
+    "arrays": 52,
+    "parameters": 121024,
+    "all_values_finite": true
+  },
+  "shared.weights.npz": {
+    "arrays": 20,
+    "parameters": 54080,
+    "all_values_finite": true
+  }
+}

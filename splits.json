@@ -1,0 +1,23 @@
+{
+  "train": {
+    "start": 0,
+    "stop": 892315,
+    "windows": 13942,
+    "target_bytes": 892288,
+    "unused_tail_bytes": 26
+  },
+  "validation": {
+    "start": 892315,
+    "stop": 1003854,
+    "windows": 1742,
+    "target_bytes": 111488,
+    "unused_tail_bytes": 50
+  },
+  "test": {
+    "start": 1003854,
+    "stop": 1115394,
+    "windows": 1742,
+    "target_bytes": 111488,
+    "unused_tail_bytes": 51
+  }
+}

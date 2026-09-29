@@ -1,0 +1,41 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Shared-depth language modeling study</title><style>body{max-width:1000px;margin:40px auto;font:17px system-ui;padding:20px}img{max-width:100%}td,th{padding:10px;text-align:left}figure{margin:28px 0}</style><h1>Shared-Depth Byte Language Models in TensorFlow</h1><p>Automated study; human review pending.</p><p>Selected: Standard Transformer. Parameter reduction: 55.3%. Shared minus standard test BPB: +0.1458.</p><table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>model</th>
+      <th>nll</th>
+      <th>bits_per_byte</th>
+      <th>perplexity</th>
+      <th>accuracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Standard Transformer</td>
+      <td>2.0377</td>
+      <td>2.9398</td>
+      <td>7.6732</td>
+      <td>0.4062</td>
+    </tr>
+    <tr>
+      <td>Shared-depth Transformer</td>
+      <td>2.1388</td>
+      <td>3.0856</td>
+      <td>8.4892</td>
+      <td>0.3749</td>
+    </tr>
+    <tr>
+      <td>Unigram baseline</td>
+      <td>3.3479</td>
+      <td>4.8300</td>
+      <td>28.4429</td>
+      <td>0.1490</td>
+    </tr>
+    <tr>
+      <td>Bigram baseline</td>
+      <td>2.5122</td>
+      <td>3.6243</td>
+      <td>12.3315</td>
+      <td>0.2648</td>
+    </tr>
+  </tbody>
+</table><p>Five fixed epochs; one seed; contiguous 80/10/10 split; no pretrained weights. See README.md for full protocol and limitations.</p><figure><img src="figures/byte-errors.png" alt="byte-errors"></figure><figure><img src="figures/distributions.png" alt="distributions"></figure><figure><img src="figures/error-analysis.png" alt="error-analysis"></figure><figure><img src="figures/learning-curves.png" alt="learning-curves"></figure><figure><img src="figures/model-comparison.png" alt="model-comparison"></figure><figure><img src="figures/parameter-comparison.png" alt="parameter-comparison"></figure></html>

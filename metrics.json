@@ -1,0 +1,67 @@
+{
+  "selected_model": "Standard Transformer",
+  "models": {
+    "Standard Transformer": {
+      "parameters": 121024,
+      "best_epoch": 5,
+      "training_seconds": 430.9660071740001,
+      "validation": {
+        "nll": 1.9739364941254538,
+        "bits_per_byte": 2.847788391104539,
+        "perplexity": 7.198959445543264,
+        "accuracy": 0.4135243254879449
+      },
+      "test": {
+        "nll": 2.0377300789387167,
+        "bits_per_byte": 2.9398230795551625,
+        "perplexity": 7.6731719211934895,
+        "accuracy": 0.40619618254879447
+      }
+    },
+    "Shared-depth Transformer": {
+      "parameters": 54080,
+      "best_epoch": 5,
+      "training_seconds": 436.24746841700005,
+      "validation": {
+        "nll": 2.1101498993273573,
+        "bits_per_byte": 3.044302795291924,
+        "perplexity": 8.249477783119938,
+        "accuracy": 0.3799601750861079
+      },
+      "test": {
+        "nll": 2.1387951342941425,
+        "bits_per_byte": 3.085629133723604,
+        "perplexity": 8.489203114813636,
+        "accuracy": 0.374892365097589
+      }
+    },
+    "Unigram baseline": {
+      "test": {
+        "nll": 3.347897992908363,
+        "bits_per_byte": 4.82999583177101,
+        "perplexity": 28.44288362014104,
+        "accuracy": 0.14900258323765786
+      },
+      "validation": {
+        "nll": 3.307444444653267,
+        "bits_per_byte": 4.77163369831702,
+        "perplexity": 27.3152306162081,
+        "accuracy": 0.15325416188289323
+      }
+    },
+    "Bigram baseline": {
+      "test": {
+        "nll": 2.512160398955568,
+        "bits_per_byte": 3.624281349490838,
+        "perplexity": 12.331542354797183,
+        "accuracy": 0.2647908295063146
+      },
+      "validation": {
+        "nll": 2.496643890796528,
+        "bits_per_byte": 3.6018957601178774,
+        "perplexity": 12.141676712483894,
+        "accuracy": 0.26143620838117104
+      }
+    }
+  }
+}

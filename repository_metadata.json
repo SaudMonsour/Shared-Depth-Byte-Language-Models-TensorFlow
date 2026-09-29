@@ -1,0 +1,13 @@
+{
+  "suggested_repo_name": "tensorflow-shared-depth-byte-lm",
+  "about": "From-scratch TensorFlow byte language models: compare shared-depth and standard Transformers on Shakespeare with verified metrics and checkpoints.",
+  "topics": [
+    "tensorflow",
+    "language-modeling",
+    "transformer",
+    "deep-learning",
+    "byte-level",
+    "parameter-sharing",
+    "nlp"
+  ]
+}

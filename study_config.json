@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "context": 64,
+  "width": 64,
+  "heads": 4,
+  "ffn": 128,
+  "depth": 3,
+  "dropout": 0.1,
+  "epochs": 5,
+  "batch_size": 64,
+  "learning_rate": 0.001,
+  "baseline_alpha": 0.1,
+  "prompts": [
+    "ROMEO:\n",
+    "JULIET:\n",
+    "To be, or not to be"
+  ],
+  "generation_bytes": 256,
+  "temperature": 0.8
+}

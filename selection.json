@@ -1,0 +1,28 @@
+{
+  "selected_model": "Standard Transformer",
+  "rule": "Minimum validation NLL; checkpoints and model selected before test evaluation",
+  "models": {
+    "Standard Transformer": {
+      "parameters": 121024,
+      "best_epoch": 5,
+      "training_seconds": 430.9660071740001,
+      "validation": {
+        "nll": 1.9739364941254538,
+        "bits_per_byte": 2.847788391104539,
+        "perplexity": 7.198959445543264,
+        "accuracy": 0.4135243254879449
+      }
+    },
+    "Shared-depth Transformer": {
+      "parameters": 54080,
+      "best_epoch": 5,
+      "training_seconds": 436.24746841700005,
+      "validation": {
+        "nll": 2.1101498993273573,
+        "bits_per_byte": 3.044302795291924,
+        "perplexity": 8.249477783119938,
+        "accuracy": 0.3799601750861079
+      }
+    }
+  }
+}
